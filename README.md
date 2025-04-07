@@ -4,16 +4,17 @@
 Psychro-Scanner is a network and vulnerability scanning tool that automates host discovery, port scanning, and service detection while storing results in a structured SQLite database. The tool offers flexible scanning options, including the ability to load previously generated Nmap XML files into the database for analysis.
 
 Features
-Discovery Scans: Supports ping-only, full discovery, and TCP/UDP port scans.
-Service Detection: Detects running services on open ports.
-Database Integration: Stores scan results in an SQLite database, including IP addresses, ports, and service details.
-Command-Line Interaction: Interact with the database to list services, search for specific services, and view CPE mappings.
-Future Feature: CPE and CVE Support (coming soon) for enhanced vulnerability detection.
+ - Discovery Scans: Supports ping-only, full discovery, and TCP/UDP port scans.
+ - Service Detection: Detects running services on open ports.
+ - Database Integration: Stores scan results in an SQLite database, including IP addresses, ports, and service details.
+ - Command-Line Interaction: Interact with the database to list services, search for specific services, and view CPE mappings.
+ - Future Feature: CPE and CVE Support (coming soon) for enhanced vulnerability detection.
+
 Setup Instructions
-Prerequisites
-Go 1.16 or later
-Nmap installed and in the system path
-SQLite3 (installed automatically through Go packages)
+ - Prerequisites
+   - Go 1.16 or later
+   - Nmap installed and in the system path
+   - SQLite3 (installed automatically through Go packages)
 
 # Discovery and Profiling Scanner
 
