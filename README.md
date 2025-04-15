@@ -46,7 +46,7 @@ To compile and run the program:
    ```
 
    ```bash
-   go build -o psychro_scanner main.go
+   go build -o psychro_scanner main.go nmap.go output.go utils.go
    ```
 
 
@@ -54,7 +54,7 @@ To compile and run the program:
 2. **Run the Program**
 
    ```bash
-   ./network_scan -f targets.txt -v --debug --min-rtt 100ms --max-rtt 500ms
+   ./psychro_scanner -f targets.txt -v --debug --min-rtt 100ms --max-rtt 500ms
    ```
 
    Replace `targets.txt` with your target file.
